@@ -4,21 +4,11 @@
   "version": "1.0",
   "manifest_version": 3,
 
-  "background": {
-    "service_worker": "background.js"
-  },
-
   "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["https://www.youtube.com/*", "https://www.yt-download.org/*"],
 
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "/images/download16.png",
-      "32": "/images/download32.png",
-      "64": "/images/download64.png",
-      "128": "/images/download28.png"
-    }
+    "default_popup": "popup.html"
   },
 
   "content_scripts": [
@@ -35,6 +25,5 @@
     "32": "/images/download32.png",
     "64": "/images/download64.png",
     "128": "/images/download128.png"
-  },
-  "options_page": "options.html"
+  }
 }

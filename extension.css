@@ -1,0 +1,40 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2974d6 0px 0px 20px, #2dabff 0px 0px 30px, #2d99ff 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.credits {
+  font-size: 10px;
+  background-color: #e6e6e6;
+}
+
+body {
+  background-color: #666666;
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/24/02/14/music-1106439_960_720.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: 0px inset #ffffff;
+  height: 170px;
+  width: 500px;
+  border-radius: 31px;
+  margin:0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
